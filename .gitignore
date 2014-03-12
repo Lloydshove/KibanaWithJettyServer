@@ -7,16 +7,10 @@
 
 \f0\fs24 \cf2 *.class\
 \
-# Mobile Tools for Java (J2ME)\
-build/\
-out/\
+build/**\
+out/**\
 \
 # Package Files #\
 *.jar\
 *.war\
-*.ear\
-\
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml\
-hs_err_pid*\
-}
-out/artifacts/kibanawebserver__exploded_/META-INF/MANIFEST.MF
+*.ear}
