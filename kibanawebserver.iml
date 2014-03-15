@@ -20,6 +20,10 @@
         <webroots>
           <root url="file://$MODULE_DIR$/src/main/webapp" relative="" />
         </webroots>
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/src/main/java" />
+          <root url="file://$MODULE_DIR$/src/main/resources" />
+        </sourceRoots>
       </configuration>
     </facet>
   </component>
@@ -54,6 +58,26 @@
     <orderEntry type="library" exported="" name="Gradle: jetty-http-9.1.0.RC0" level="project" />
     <orderEntry type="library" exported="" name="Gradle: jetty-io-9.1.0.RC0" level="project" />
     <orderEntry type="library" exported="" name="Gradle: jetty-security-9.1.0.RC0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: httpclient-4.3.3" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: httpcore-4.3.2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: commons-logging-1.1.3" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: commons-codec-1.6" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: elasticsearch-1.0.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: lucene-core-4.6.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: lucene-analyzers-common-4.6.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: lucene-codecs-4.6.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: lucene-queries-4.6.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: lucene-memory-4.6.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: lucene-highlighter-4.6.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: jakarta-regexp-1.4" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: lucene-sandbox-4.6.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: lucene-queryparser-4.6.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: lucene-misc-4.6.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: lucene-suggest-4.6.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: lucene-grouping-4.6.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: lucene-join-4.6.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: spatial4j-0.3" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: lucene-spatial-4.6.1" level="project" />
   </component>
 </module>
 

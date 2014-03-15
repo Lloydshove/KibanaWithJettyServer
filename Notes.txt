@@ -1,0 +1,36 @@
+Getting started
+Install the Sense Chrome extension
+
+
+How to add data
+
+
+Links
+Local Kibana Server - http://localhost:8080/
+LogStash JMS support :- https://logstash.jira.com/browse/LOGSTASH-1862
+
+
+
+REST Queries
+POST /messages/_search
+
+STATS
+
+SPEED
+
+46770millis to add 10000 entries  << with no batching
+143584 millis to add 100000 entries << with no batching and lots of new Random()
+38574 millis to add 100000 entries << with no batching
+9475 millis to add 100000 entries << with batching, all in 1 insert
+311155 millis to add 2900000 entries << with batching 100k * 29 inserts
+
+SIZE
+
+3M messages indexed = 600MB
+
+
+Questions
+ElasticHQ free???
+Cluster state yellow???
+
+
