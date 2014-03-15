@@ -8,6 +8,7 @@
 \f0\fs24 \cf2 *.class\
 \
 build/**\
+elasticSearch\data\**\*
 out/**\
 \
 # Package Files #\

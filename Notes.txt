@@ -1,18 +1,14 @@
 Getting started
-Install the Sense Chrome extension
-
-
-How to add data
-
+- Install the Sense Chrome extension
 
 Links
-Local Kibana Server - http://localhost:8080/
+Local Kibana Server - http://localhost:8080/kibana
 LogStash JMS support :- https://logstash.jira.com/browse/LOGSTASH-1862
-
 
 
 REST Queries
 POST /messages/_search
+
 
 STATS
 
@@ -29,8 +25,8 @@ SIZE
 3M messages indexed = 600MB
 
 
-Questions
-ElasticHQ free???
-Cluster state yellow???
+TODO
+What other config options (memory, file locks, nodes etc.) to set by defaults
+What tool to use to monitor cluster state?
 
 

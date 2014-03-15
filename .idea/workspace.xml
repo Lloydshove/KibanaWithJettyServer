@@ -2,40 +2,157 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7869bbdb-262d-407c-8ad2-278b0d06b581" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/elasticsearch/indexing/BulkMessageIndexRequestBuilder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/elasticsearch/indexing/ElasticSearchEnvironment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_codec_1_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_logging_1_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__elasticsearch_1_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__httpclient_4_3_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__httpcore_4_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jakarta_regexp_1_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__lucene_analyzers_common_4_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__lucene_codecs_4_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__lucene_core_4_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__lucene_grouping_4_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__lucene_highlighter_4_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__lucene_join_4_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__lucene_memory_4_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__lucene_misc_4_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__lucene_queries_4_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__lucene_queryparser_4_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__lucene_sandbox_4_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__lucene_spatial_4_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__lucene_suggest_4_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__spatial4j_0_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/elasticsearch/indexing/JsonMessageFormatter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/elasticsearch/indexing/domain/Message.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/elasticsearch/indexing/MessageIndexer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/elasticsearch/indexing/domain/MessageType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/elasticsearch/indexing/domain/Topic.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__jstl_1_1_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__servlet_api_2_5.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/kibana/webserver/StaticJetty.java" afterPath="$PROJECT_DIR$/src/main/java/kibana/webserver/StaticJetty.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kibanawebserver.iml" afterPath="$PROJECT_DIR$/kibanawebserver.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/LICENSE.md" afterPath="$PROJECT_DIR$/static/kibana/LICENSE.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/README.md" afterPath="$PROJECT_DIR$/static/kibana/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/app.js" afterPath="$PROJECT_DIR$/static/kibana/app/app.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/components/require.config.js" afterPath="$PROJECT_DIR$/static/kibana/app/components/require.config.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/dashboards/blank.json" afterPath="$PROJECT_DIR$/static/kibana/app/dashboards/blank.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/dashboards/default.json" afterPath="$PROJECT_DIR$/static/kibana/app/dashboards/default.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/dashboards/guided.json" afterPath="$PROJECT_DIR$/static/kibana/app/dashboards/guided.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/dashboards/logstash.js" afterPath="$PROJECT_DIR$/static/kibana/app/dashboards/logstash.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/dashboards/logstash.json" afterPath="$PROJECT_DIR$/static/kibana/app/dashboards/logstash.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/dashboards/noted.json" afterPath="$PROJECT_DIR$/static/kibana/app/dashboards/noted.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/factories/store.js" afterPath="$PROJECT_DIR$/static/kibana/app/factories/store.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/bettermap/editor.html" afterPath="$PROJECT_DIR$/static/kibana/app/panels/bettermap/editor.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/bettermap/leaflet/images/layers-2x.png" afterPath="$PROJECT_DIR$/static/kibana/app/panels/bettermap/leaflet/images/layers-2x.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/bettermap/leaflet/images/layers.png" afterPath="$PROJECT_DIR$/static/kibana/app/panels/bettermap/leaflet/images/layers.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/bettermap/leaflet/images/marker-icon-2x.png" afterPath="$PROJECT_DIR$/static/kibana/app/panels/bettermap/leaflet/images/marker-icon-2x.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/bettermap/leaflet/images/marker-icon.png" afterPath="$PROJECT_DIR$/static/kibana/app/panels/bettermap/leaflet/images/marker-icon.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/bettermap/leaflet/images/marker-shadow.png" afterPath="$PROJECT_DIR$/static/kibana/app/panels/bettermap/leaflet/images/marker-shadow.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/bettermap/leaflet/leaflet.css" afterPath="$PROJECT_DIR$/static/kibana/app/panels/bettermap/leaflet/leaflet.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/bettermap/leaflet/leaflet.ie.css" afterPath="$PROJECT_DIR$/static/kibana/app/panels/bettermap/leaflet/leaflet.ie.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/bettermap/leaflet/leaflet.js" afterPath="$PROJECT_DIR$/static/kibana/app/panels/bettermap/leaflet/leaflet.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/bettermap/leaflet/plugins.css" afterPath="$PROJECT_DIR$/static/kibana/app/panels/bettermap/leaflet/plugins.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/bettermap/leaflet/plugins.js" afterPath="$PROJECT_DIR$/static/kibana/app/panels/bettermap/leaflet/plugins.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/bettermap/module.css" afterPath="$PROJECT_DIR$/static/kibana/app/panels/bettermap/module.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/bettermap/module.html" afterPath="$PROJECT_DIR$/static/kibana/app/panels/bettermap/module.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/bettermap/module.js" afterPath="$PROJECT_DIR$/static/kibana/app/panels/bettermap/module.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/column/editor.html" afterPath="$PROJECT_DIR$/static/kibana/app/panels/column/editor.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/column/module.html" afterPath="$PROJECT_DIR$/static/kibana/app/panels/column/module.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/column/module.js" afterPath="$PROJECT_DIR$/static/kibana/app/panels/column/module.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/column/panelgeneral.html" afterPath="$PROJECT_DIR$/static/kibana/app/panels/column/panelgeneral.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/dashcontrol/editor.html" afterPath="$PROJECT_DIR$/static/kibana/app/panels/dashcontrol/editor.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/dashcontrol/module.html" afterPath="$PROJECT_DIR$/static/kibana/app/panels/dashcontrol/module.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/dashcontrol/module.js" afterPath="$PROJECT_DIR$/static/kibana/app/panels/dashcontrol/module.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/derivequeries/editor.html" afterPath="$PROJECT_DIR$/static/kibana/app/panels/derivequeries/editor.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/derivequeries/module.html" afterPath="$PROJECT_DIR$/static/kibana/app/panels/derivequeries/module.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/derivequeries/module.js" afterPath="$PROJECT_DIR$/static/kibana/app/panels/derivequeries/module.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/fields/editor.html" afterPath="$PROJECT_DIR$/static/kibana/app/panels/fields/editor.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/fields/micropanel.html" afterPath="$PROJECT_DIR$/static/kibana/app/panels/fields/micropanel.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/fields/module.html" afterPath="$PROJECT_DIR$/static/kibana/app/panels/fields/module.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/fields/module.js" afterPath="$PROJECT_DIR$/static/kibana/app/panels/fields/module.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/filtering/editor.html" afterPath="$PROJECT_DIR$/static/kibana/app/panels/filtering/editor.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/filtering/meta.html" afterPath="$PROJECT_DIR$/static/kibana/app/panels/filtering/meta.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/filtering/module.html" afterPath="$PROJECT_DIR$/static/kibana/app/panels/filtering/module.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/filtering/module.js" afterPath="$PROJECT_DIR$/static/kibana/app/panels/filtering/module.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/histogram/editor.html" afterPath="$PROJECT_DIR$/static/kibana/app/panels/histogram/editor.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/histogram/module.html" afterPath="$PROJECT_DIR$/static/kibana/app/panels/histogram/module.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/histogram/module.js" afterPath="$PROJECT_DIR$/static/kibana/app/panels/histogram/module.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/histogram/queriesEditor.html" afterPath="$PROJECT_DIR$/static/kibana/app/panels/histogram/queriesEditor.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/histogram/styleEditor.html" afterPath="$PROJECT_DIR$/static/kibana/app/panels/histogram/styleEditor.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/hits/editor.html" afterPath="$PROJECT_DIR$/static/kibana/app/panels/hits/editor.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/hits/module.html" afterPath="$PROJECT_DIR$/static/kibana/app/panels/hits/module.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/hits/module.js" afterPath="$PROJECT_DIR$/static/kibana/app/panels/hits/module.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/map/editor.html" afterPath="$PROJECT_DIR$/static/kibana/app/panels/map/editor.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/map/lib/map.europe.js" afterPath="$PROJECT_DIR$/static/kibana/app/panels/map/lib/map.europe.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/map/lib/map.usa.js" afterPath="$PROJECT_DIR$/static/kibana/app/panels/map/lib/map.usa.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/map/lib/map.world.js" afterPath="$PROJECT_DIR$/static/kibana/app/panels/map/lib/map.world.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/map/module.html" afterPath="$PROJECT_DIR$/static/kibana/app/panels/map/module.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/map/module.js" afterPath="$PROJECT_DIR$/static/kibana/app/panels/map/module.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/pie/editor.html" afterPath="$PROJECT_DIR$/static/kibana/app/panels/pie/editor.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/pie/module.html" afterPath="$PROJECT_DIR$/static/kibana/app/panels/pie/module.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/pie/module.js" afterPath="$PROJECT_DIR$/static/kibana/app/panels/pie/module.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/query/editor.html" afterPath="$PROJECT_DIR$/static/kibana/app/panels/query/editor.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/query/editors/lucene.html" afterPath="$PROJECT_DIR$/static/kibana/app/panels/query/editors/lucene.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/query/editors/regex.html" afterPath="$PROJECT_DIR$/static/kibana/app/panels/query/editors/regex.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/query/editors/topN.html" afterPath="$PROJECT_DIR$/static/kibana/app/panels/query/editors/topN.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/query/help/lucene.html" afterPath="$PROJECT_DIR$/static/kibana/app/panels/query/help/lucene.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/query/help/regex.html" afterPath="$PROJECT_DIR$/static/kibana/app/panels/query/help/regex.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/query/help/topN.html" afterPath="$PROJECT_DIR$/static/kibana/app/panels/query/help/topN.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/query/helpModal.html" afterPath="$PROJECT_DIR$/static/kibana/app/panels/query/helpModal.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/query/meta.html" afterPath="$PROJECT_DIR$/static/kibana/app/panels/query/meta.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/query/module.html" afterPath="$PROJECT_DIR$/static/kibana/app/panels/query/module.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/query/module.js" afterPath="$PROJECT_DIR$/static/kibana/app/panels/query/module.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/query/query.css" afterPath="$PROJECT_DIR$/static/kibana/app/panels/query/query.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/sparklines/editor.html" afterPath="$PROJECT_DIR$/static/kibana/app/panels/sparklines/editor.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/sparklines/module.html" afterPath="$PROJECT_DIR$/static/kibana/app/panels/sparklines/module.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/sparklines/module.js" afterPath="$PROJECT_DIR$/static/kibana/app/panels/sparklines/module.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/stats/editor.html" afterPath="$PROJECT_DIR$/static/kibana/app/panels/stats/editor.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/stats/module.html" afterPath="$PROJECT_DIR$/static/kibana/app/panels/stats/module.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/stats/module.js" afterPath="$PROJECT_DIR$/static/kibana/app/panels/stats/module.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/table/editor.html" afterPath="$PROJECT_DIR$/static/kibana/app/panels/table/editor.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/table/micropanel.html" afterPath="$PROJECT_DIR$/static/kibana/app/panels/table/micropanel.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/table/modal.html" afterPath="$PROJECT_DIR$/static/kibana/app/panels/table/modal.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/table/module.html" afterPath="$PROJECT_DIR$/static/kibana/app/panels/table/module.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/table/module.js" afterPath="$PROJECT_DIR$/static/kibana/app/panels/table/module.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/table/pagination.html" afterPath="$PROJECT_DIR$/static/kibana/app/panels/table/pagination.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/terms/editor.html" afterPath="$PROJECT_DIR$/static/kibana/app/panels/terms/editor.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/terms/module.html" afterPath="$PROJECT_DIR$/static/kibana/app/panels/terms/module.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/terms/module.js" afterPath="$PROJECT_DIR$/static/kibana/app/panels/terms/module.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/text/editor.html" afterPath="$PROJECT_DIR$/static/kibana/app/panels/text/editor.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/text/module.html" afterPath="$PROJECT_DIR$/static/kibana/app/panels/text/module.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/text/module.js" afterPath="$PROJECT_DIR$/static/kibana/app/panels/text/module.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/timepicker/custom.html" afterPath="$PROJECT_DIR$/static/kibana/app/panels/timepicker/custom.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/timepicker/editor.html" afterPath="$PROJECT_DIR$/static/kibana/app/panels/timepicker/editor.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/timepicker/module.html" afterPath="$PROJECT_DIR$/static/kibana/app/panels/timepicker/module.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/timepicker/module.js" afterPath="$PROJECT_DIR$/static/kibana/app/panels/timepicker/module.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/timepicker/refreshctrl.html" afterPath="$PROJECT_DIR$/static/kibana/app/panels/timepicker/refreshctrl.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/trends/editor.html" afterPath="$PROJECT_DIR$/static/kibana/app/panels/trends/editor.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/trends/module.html" afterPath="$PROJECT_DIR$/static/kibana/app/panels/trends/module.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/panels/trends/module.js" afterPath="$PROJECT_DIR$/static/kibana/app/panels/trends/module.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/partials/dashLoader.html" afterPath="$PROJECT_DIR$/static/kibana/app/partials/dashLoader.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/partials/dashLoaderShare.html" afterPath="$PROJECT_DIR$/static/kibana/app/partials/dashLoaderShare.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/partials/dashboard.html" afterPath="$PROJECT_DIR$/static/kibana/app/partials/dashboard.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/partials/dasheditor.html" afterPath="$PROJECT_DIR$/static/kibana/app/partials/dasheditor.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/partials/inspector.html" afterPath="$PROJECT_DIR$/static/kibana/app/partials/inspector.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/partials/load.html" afterPath="$PROJECT_DIR$/static/kibana/app/partials/load.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/partials/modal.html" afterPath="$PROJECT_DIR$/static/kibana/app/partials/modal.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/partials/paneladd.html" afterPath="$PROJECT_DIR$/static/kibana/app/partials/paneladd.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/partials/paneleditor.html" afterPath="$PROJECT_DIR$/static/kibana/app/partials/paneleditor.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/partials/panelgeneral.html" afterPath="$PROJECT_DIR$/static/kibana/app/partials/panelgeneral.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/partials/querySelect.html" afterPath="$PROJECT_DIR$/static/kibana/app/partials/querySelect.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/app/partials/roweditor.html" afterPath="$PROJECT_DIR$/static/kibana/app/partials/roweditor.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/build.txt" afterPath="$PROJECT_DIR$/static/kibana/build.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/config.js" afterPath="$PROJECT_DIR$/static/kibana/config.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/css/animate.min.css" afterPath="$PROJECT_DIR$/static/kibana/css/animate.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/css/bootstrap-responsive.min.css" afterPath="$PROJECT_DIR$/static/kibana/css/bootstrap-responsive.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/css/bootstrap.dark.less" afterPath="$PROJECT_DIR$/static/kibana/css/bootstrap.dark.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/css/bootstrap.dark.min.css" afterPath="$PROJECT_DIR$/static/kibana/css/bootstrap.dark.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/css/bootstrap.light.less" afterPath="$PROJECT_DIR$/static/kibana/css/bootstrap.light.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/css/bootstrap.light.min.css" afterPath="$PROJECT_DIR$/static/kibana/css/bootstrap.light.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/static/kibana/css/font-awesome.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/css/normalize.min.css" afterPath="$PROJECT_DIR$/static/kibana/css/normalize.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/css/timepicker.css" afterPath="$PROJECT_DIR$/static/kibana/css/timepicker.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/font/FontAwesome.otf" afterPath="$PROJECT_DIR$/static/kibana/font/FontAwesome.otf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/font/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/static/kibana/font/fontawesome-webfont.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/font/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/static/kibana/font/fontawesome-webfont.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/font/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/static/kibana/font/fontawesome-webfont.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/font/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/static/kibana/font/fontawesome-webfont.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/img/cubes.png" afterPath="$PROJECT_DIR$/static/kibana/img/cubes.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/img/glyphicons-halflings-white.png" afterPath="$PROJECT_DIR$/static/kibana/img/glyphicons-halflings-white.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/img/glyphicons-halflings.png" afterPath="$PROJECT_DIR$/static/kibana/img/glyphicons-halflings.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/img/kibana.png" afterPath="$PROJECT_DIR$/static/kibana/img/kibana.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/img/light.png" afterPath="$PROJECT_DIR$/static/kibana/img/light.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/img/load.gif" afterPath="$PROJECT_DIR$/static/kibana/img/load.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/img/load_big.gif" afterPath="$PROJECT_DIR$/static/kibana/img/load_big.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/img/small.png" afterPath="$PROJECT_DIR$/static/kibana/img/small.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/index.html" afterPath="$PROJECT_DIR$/static/kibana/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/vendor/LICENSE.json" afterPath="$PROJECT_DIR$/static/kibana/vendor/LICENSE.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/vendor/bootstrap/less/tests/buttons.html" afterPath="$PROJECT_DIR$/static/kibana/vendor/bootstrap/less/tests/buttons.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/vendor/bootstrap/less/tests/css-tests.css" afterPath="$PROJECT_DIR$/static/kibana/vendor/bootstrap/less/tests/css-tests.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/vendor/bootstrap/less/tests/css-tests.html" afterPath="$PROJECT_DIR$/static/kibana/vendor/bootstrap/less/tests/css-tests.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/vendor/bootstrap/less/tests/forms-responsive.html" afterPath="$PROJECT_DIR$/static/kibana/vendor/bootstrap/less/tests/forms-responsive.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/vendor/bootstrap/less/tests/forms.html" afterPath="$PROJECT_DIR$/static/kibana/vendor/bootstrap/less/tests/forms.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/vendor/bootstrap/less/tests/navbar-fixed-top.html" afterPath="$PROJECT_DIR$/static/kibana/vendor/bootstrap/less/tests/navbar-fixed-top.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/vendor/bootstrap/less/tests/navbar-static-top.html" afterPath="$PROJECT_DIR$/static/kibana/vendor/bootstrap/less/tests/navbar-static-top.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/vendor/bootstrap/less/tests/navbar.html" afterPath="$PROJECT_DIR$/static/kibana/vendor/bootstrap/less/tests/navbar.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/vendor/require/css-build.js" afterPath="$PROJECT_DIR$/static/kibana/vendor/require/css-build.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/vendor/require/require.js" afterPath="$PROJECT_DIR$/static/kibana/vendor/require/require.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/vendor/require/tmpl.js" afterPath="$PROJECT_DIR$/static/kibana/vendor/require/tmpl.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/vendor/timezone.js" afterPath="$PROJECT_DIR$/static/kibana/vendor/timezone.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/elasticsearch/indexing/MessageIndexer.java" afterPath="$PROJECT_DIR$/src/main/java/elasticsearch/indexing/MessageIndexer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Notes.txt" afterPath="$PROJECT_DIR$/Notes.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="kibanawebserver.iws" />
@@ -120,10 +237,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JsonMessageFormatter.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="JsonMessageFormatter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/elasticsearch/indexing/JsonMessageFormatter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="26" selection-start="599" selection-end="599" vertical-scroll-proportion="1.1445783" vertical-offset="50" max-vertical-offset="720">
+            <state line="5" column="35" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0" vertical-offset="50" max-vertical-offset="720">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -142,13 +259,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MessageIndexer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/elasticsearch/indexing/MessageIndexer.java">
+      <file leaf-file-name="elasticsearch" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/elasticSearch/elasticsearch-1.0.1/bin/elasticsearch">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="55" selection-start="447" selection-end="447" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="3285">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="23" selection-start="324" selection-end="324" vertical-scroll-proportion="0.89285713" vertical-offset="0" max-vertical-offset="330">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="elasticsearch.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/elasticSearch/elasticsearch-1.0.1/config/elasticsearch.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="148" column="27" selection-start="5559" selection-end="5559" vertical-scroll-proportion="0.0" vertical-offset="1965" max-vertical-offset="5745">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/kibana/config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="1125">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -157,9 +302,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/elasticsearch/indexing/domain/MessageType.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="24" column="0" selection-start="602" selection-end="602" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -168,33 +311,6 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/elasticsearch/indexing/domain/Topic.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="8" column="0" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Random.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_40.jdk/Contents/Home/src.zip!/java/util/Random.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="297" column="15" selection-start="11620" selection-end="11620" vertical-scroll-proportion="0.0" vertical-offset="4455" max-vertical-offset="8805">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="URLStreamHandler.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_40.jdk/Contents/Home/src.zip!/java/net/URLStreamHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="37" selection-start="2086" selection-end="2086" vertical-scroll-proportion="0.0" vertical-offset="1065" max-vertical-offset="8940">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HttpURLConnection.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_40.jdk/Contents/Home/jre/lib/rt.jar!/sun/net/www/protocol/http/HttpURLConnection.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="33" selection-start="3079" selection-end="3083" vertical-scroll-proportion="0.0" vertical-offset="900" max-vertical-offset="4425">
               <folding />
             </state>
           </provider>
@@ -496,11 +612,14 @@
         <option value="$PROJECT_DIR$/src/main/java/elasticsearch/indexing/DataInjector.java" />
         <option value="$PROJECT_DIR$/src/main/java/elasticsearch/indexing/Environment.java" />
         <option value="$PROJECT_DIR$/src/main/java/elasticsearch/indexing/BulkMessageIndexRequestBuilder.java" />
-        <option value="$PROJECT_DIR$/Notes.txt" />
         <option value="$PROJECT_DIR$/src/main/java/elasticsearch/indexing/domain/Message.java" />
-        <option value="$PROJECT_DIR$/src/main/java/elasticsearch/indexing/MessageIndexer.java" />
         <option value="$PROJECT_DIR$/src/main/java/elasticsearch/indexing/ElasticSearchEnvironment.java" />
         <option value="$PROJECT_DIR$/src/main/java/elasticsearch/indexing/JsonMessageFormatter.java" />
+        <option value="$PROJECT_DIR$/Elecronic Messages Kibana Schema.json" />
+        <option value="$PROJECT_DIR$/Notes.txt" />
+        <option value="$PROJECT_DIR$/elasticSearch/elasticsearch-1.0.1/config/elasticsearch.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/elasticsearch/indexing/MessageIndexer.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -529,8 +648,8 @@
       <showLibraryContents />
       <hideEmptyPackages />
       <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
+      <autoscrollToSource ProjectPane="true" />
+      <autoscrollFromSource ProjectPane="true" />
       <sortByType />
     </navigator>
     <panes>
@@ -554,67 +673,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gradle: commons-io-2.4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="commons-io-2.4.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
               <option name="myItemId" value="kibanawebserver" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gradle: commons-io-2.4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="commons-io-2.4.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="output" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kibanawebserver" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gradle: commons-io-2.4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="commons-io-2.4.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="META-INF" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -625,6 +684,14 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="kibanawebserver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kibana" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -665,10 +732,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webserver" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -746,6 +809,54 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kibanawebserver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kibanawebserver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="elasticSearch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="elasticsearch-1.0.1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kibanawebserver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kibanawebserver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="elasticSearch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="elasticsearch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -781,12 +892,15 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="elasticsearch.indexing" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/kibana" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="elasticsearch.indexing.domain" />
       <recent name="elasticsearch.indexing" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MessageIndexer">
+  <component name="RunManager">
     <configuration default="false" name="StaticJetty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1116,24 +1230,32 @@
       <workItem from="1394573144835" duration="1799000" />
       <workItem from="1394575076973" duration="60000" />
       <workItem from="1394575152793" duration="9974000" />
-      <workItem from="1394831948524" duration="6999000" />
+      <workItem from="1394831948524" duration="9076000" />
     </task>
     <task id="LOCAL-00001" summary="idea">
       <created>1394660553285</created>
       <updated>1394660553285</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="indexing messages with elastic search">
+      <created>1394915185081</created>
+      <updated>1394915185081</updated>
+    </task>
+    <task id="LOCAL-00003" summary="checking in kibana schema so I don't lose it when killing my elastic search indicies.">
+      <created>1394915256358</created>
+      <updated>1394915256358</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19364000" />
+    <option name="totallyTimeSpent" value="21441000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.69902915" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.6962552" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1207,7 +1329,9 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="idea" />
-    <option name="LAST_COMMIT_MESSAGE" value="idea" />
+    <MESSAGE value="indexing messages with elastic search" />
+    <MESSAGE value="checking in kibana schema so I don't lose it when killing my elastic search indicies." />
+    <option name="LAST_COMMIT_MESSAGE" value="checking in kibana schema so I don't lose it when killing my elastic search indicies." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1456,15 +1580,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/elasticsearch/indexing/domain/MessageType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="602" selection-end="602" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.elasticsearch/elasticsearch/1.0.1/f61550bfa747c6ddf60fef770288c5eea3a15db8/elasticsearch-1.0.1-sources.jar!/org/elasticsearch/client/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="178" column="24" selection-start="7525" selection-end="7525" vertical-scroll-proportion="0.33333334" vertical-offset="1731" max-vertical-offset="7740">
@@ -1488,25 +1603,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Notes.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="3" selection-start="508" selection-end="508" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/elasticsearch/indexing/BulkMessageIndexRequestBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="5" selection-start="506" selection-end="506" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/elasticsearch/indexing/MessageIndexer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="55" selection-start="447" selection-end="447" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1520,12 +1619,73 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Elecronic Messages Kibana Schema.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="406" column="1" selection-start="12576" selection-end="12576" vertical-scroll-proportion="0.9189189" vertical-offset="5750" max-vertical-offset="6180">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/elasticsearch/indexing/JsonMessageFormatter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="26" selection-start="599" selection-end="599" vertical-scroll-proportion="1.1445783" vertical-offset="50" max-vertical-offset="720">
+        <state line="5" column="35" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0" vertical-offset="50" max-vertical-offset="720">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notes.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="53" selection-end="53" vertical-scroll-proportion="0.06928407" vertical-offset="0" max-vertical-offset="570">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elasticSearch/elasticsearch-1.0.1/bin/elasticsearch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3285">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/kibana/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="1125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elasticSearch/elasticsearch-1.0.1/config/elasticsearch.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="148" column="27" selection-start="5559" selection-end="5559" vertical-scroll-proportion="0.0" vertical-offset="1965" max-vertical-offset="5745">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/elasticsearch/indexing/domain/MessageType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="602" selection-end="602" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/elasticsearch/indexing/MessageIndexer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="29" selection-start="326" selection-end="326" vertical-scroll-proportion="0.31177828" vertical-offset="0" max-vertical-offset="765">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="23" selection-start="324" selection-end="324" vertical-scroll-proportion="0.89285713" vertical-offset="0" max-vertical-offset="330">
+          <folding />
         </state>
       </provider>
     </entry>
