@@ -2,15 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7869bbdb-262d-407c-8ad2-278b0d06b581" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticSearch/start_one_node_cluster.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elasticSearch/start_three_node_cluster.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticSearch/elasticsearch-1.0.1/logs/elasticsearch.log" afterPath="$PROJECT_DIR$/elasticSearch/elasticsearch-1.0.1/logs/elasticsearch.log" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticSearch/elasticsearch-1.0.1/logs/elasticsearch.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticSearch/elasticsearch-1.0.1/logs/elasticsearch.log.2014-03-11" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticSearch/elasticsearch-1.0.1/logs/elasticsearch.log.2014-03-14" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticSearch/elasticsearch-1.0.1/logs/elasticsearch_index_search_slowlog.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticSearch/start_two_nodes.sh" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Notes.txt" afterPath="$PROJECT_DIR$/Notes.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticSearch/elasticsearch-1.0.1/config/elasticsearch.yml" afterPath="$PROJECT_DIR$/elasticSearch/elasticsearch-1.0.1/config/elasticsearch.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="kibanawebserver.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="elasticSearch/data/" />
+    <ignored path="elasticSearch/logs/" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,19 +75,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ElasticSearchEnvironment.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/elasticsearch/indexing/ElasticSearchEnvironment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="48" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="JsonMessageFormatter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/elasticsearch/indexing/JsonMessageFormatter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="35" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0" vertical-offset="50" max-vertical-offset="720">
+            <state line="5" column="35" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="720">
               <folding />
             </state>
           </provider>
@@ -92,7 +87,7 @@
       <file leaf-file-name="elasticsearch" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/elasticSearch/elasticsearch-1.0.1/bin/elasticsearch">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="9" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="3285">
+            <state line="0" column="0" selection-start="0" selection-end="9" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3285">
               <folding />
             </state>
           </provider>
@@ -113,16 +108,16 @@
       <file leaf-file-name="start_three_node_cluster.sh" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/elasticSearch/start_three_node_cluster.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="112" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+            <state line="4" column="112" selection-start="344" selection-end="344" vertical-scroll-proportion="-2.4" vertical-offset="0" max-vertical-offset="150">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="start_one_node_cluster.sh" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="start_one_node_cluster.sh" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/elasticSearch/start_one_node_cluster.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="121" selection-end="121" vertical-scroll-proportion="0.100446425" vertical-offset="0" max-vertical-offset="448">
+            <state line="3" column="0" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="135">
               <folding />
             </state>
           </provider>
@@ -131,7 +126,7 @@
       <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="6" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+            <state line="16" column="6" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="330">
               <folding />
             </state>
           </provider>
@@ -140,16 +135,28 @@
       <file leaf-file-name="elasticsearch.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/elasticSearch/elasticsearch-1.0.1/config/elasticsearch.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="104" column="43" selection-start="4063" selection-end="4063" vertical-scroll-proportion="2.1153846" vertical-offset="1615" max-vertical-offset="5745">
+            <state line="162" column="32" selection-start="5921" selection-end="5921" vertical-scroll-proportion="0.0" vertical-offset="2055" max-vertical-offset="5745">
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LICENSE.txt" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/elasticSearch/elasticsearch-1.0.1/LICENSE.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="0" selection-start="243" selection-end="243" vertical-scroll-proportion="0.31496063" vertical-offset="0" max-vertical-offset="3120">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="config.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/kibana/config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="1125">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1125">
               <folding />
             </state>
           </provider>
@@ -158,7 +165,7 @@
       <file leaf-file-name="MessageType.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/elasticsearch/indexing/domain/MessageType.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="602" selection-end="602" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+            <state line="24" column="0" selection-start="602" selection-end="602" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="480">
               <folding />
             </state>
           </provider>
@@ -464,19 +471,20 @@
         <option value="$PROJECT_DIR$/src/main/java/elasticsearch/indexing/ElasticSearchEnvironment.java" />
         <option value="$PROJECT_DIR$/src/main/java/elasticsearch/indexing/JsonMessageFormatter.java" />
         <option value="$PROJECT_DIR$/Elecronic Messages Kibana Schema.json" />
-        <option value="$PROJECT_DIR$/Notes.txt" />
         <option value="$PROJECT_DIR$/src/main/java/elasticsearch/indexing/MessageIndexer.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/elasticSearch/start_two_nodes.sh" />
         <option value="$PROJECT_DIR$/elasticSearch/start_three_node_cluster.sh" />
-        <option value="$PROJECT_DIR$/elasticSearch/elasticsearch-1.0.1/config/elasticsearch.yml" />
         <option value="$PROJECT_DIR$/elasticSearch/start_one_node_cluster.sh" />
+        <option value="$PROJECT_DIR$/Notes.txt" />
+        <option value="$PROJECT_DIR$/elasticSearch/elasticsearch-1.0.1/config/elasticsearch.yml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="y" value="22" />
     <option name="width" value="1366" />
-    <option name="height" value="768" />
+    <option name="height" value="742" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -574,6 +582,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="logs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kibanawebserver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kibanawebserver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="elasticSearch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="elasticsearch-1.0.1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -625,9 +651,9 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="FullScreen" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/elasticSearch/data" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/elasticSearch/logs" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -932,11 +958,11 @@
       </method>
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.StaticJetty" />
-      <item index="1" class="java.lang.String" itemvalue="Application.MessageIndexer" />
-      <item index="2" class="java.lang.String" itemvalue="Gradle.Start Jetty" />
-      <item index="3" class="java.lang.String" itemvalue="Gradle.kibanawebserver [build]" />
-      <item index="4" class="java.lang.String" itemvalue="Groovy.build" />
+      <item index="0" class="java.lang.String" itemvalue="Gradle.Start Jetty" />
+      <item index="1" class="java.lang.String" itemvalue="Groovy.build" />
+      <item index="2" class="java.lang.String" itemvalue="Application.StaticJetty" />
+      <item index="3" class="java.lang.String" itemvalue="Application.MessageIndexer" />
+      <item index="4" class="java.lang.String" itemvalue="Gradle.kibanawebserver [build]" />
     </list>
     <recent_temporary>
       <list size="3">
@@ -977,7 +1003,8 @@
       <workItem from="1394573144835" duration="1799000" />
       <workItem from="1394575076973" duration="60000" />
       <workItem from="1394575152793" duration="9974000" />
-      <workItem from="1394831948524" duration="10738000" />
+      <workItem from="1394831948524" duration="11463000" />
+      <workItem from="1394958714924" duration="1195000" />
     </task>
     <task id="LOCAL-00001" summary="idea">
       <created>1394660553285</created>
@@ -999,18 +1026,22 @@
       <created>1394921139463</created>
       <updated>1394921139463</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="playing with config to replicate data across nodes.  added some scripts to start different numbers of nodes.">
+      <created>1394926153063</created>
+      <updated>1394926153063</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23103000" />
+    <option name="totallyTimeSpent" value="25023000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="768" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="22" width="1366" height="742" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30790567" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3179792" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1023,7 +1054,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986626" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329429" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1042,15 +1073,15 @@
     <layout-to-restore>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30790567" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329429" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329429" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32871014" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1066,8 +1097,8 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -1088,7 +1119,9 @@
     <MESSAGE value="checking in kibana schema so I don't lose it when killing my elastic search indicies." />
     <MESSAGE value="move kibana location" />
     <MESSAGE value="checking in elastic search&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="checking in elastic search&#10;" />
+    <MESSAGE value="playing with config to replicate data across nodes.  added some scripts to start different numbers of nodes." />
+    <MESSAGE value="moving logs to the upper level" />
+    <option name="LAST_COMMIT_MESSAGE" value="moving logs to the upper level" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1098,27 +1131,14 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/web-app_2_5.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="19200">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/kibana/webserver/StaticServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="5" selection-start="543" selection-end="543" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="420">
-          <folding />
-        </state>
+        <state line="18" column="5" selection-start="543" selection-end="543" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="420" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/kibana/webserver/StaticJetty.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="680" selection-end="680" vertical-scroll-proportion="0.0" vertical-offset="96" max-vertical-offset="705">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
+        <state line="22" column="0" selection-start="680" selection-end="680" vertical-scroll-proportion="0.0" vertical-offset="96" max-vertical-offset="705" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Notes.txt">
@@ -1130,32 +1150,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/elasticsearch/indexing/MessageIndexer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="100" selection-start="2236" selection-end="2236" vertical-scroll-proportion="0.0" vertical-offset="497" max-vertical-offset="1890">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="53" column="100" selection-start="2236" selection-end="2236" vertical-scroll-proportion="0.0" vertical-offset="497" max-vertical-offset="1890" />
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_40.jdk/Contents/Home/src.zip!/java/util/Random.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="297" column="15" selection-start="11620" selection-end="11620" vertical-scroll-proportion="0.0" vertical-offset="4455" max-vertical-offset="8805">
-          <folding />
-        </state>
+        <state line="297" column="15" selection-start="11620" selection-end="11620" vertical-scroll-proportion="0.0" vertical-offset="4455" max-vertical-offset="8805" />
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_40.jdk/Contents/Home/src.zip!/java/net/URLStreamHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="37" selection-start="2086" selection-end="2086" vertical-scroll-proportion="0.0" vertical-offset="1065" max-vertical-offset="8940">
-          <folding />
-        </state>
+        <state line="71" column="37" selection-start="2086" selection-end="2086" vertical-scroll-proportion="0.0" vertical-offset="1065" max-vertical-offset="8940" />
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_40.jdk/Contents/Home/jre/lib/rt.jar!/sun/net/www/protocol/http/HttpURLConnection.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="33" selection-start="3079" selection-end="3083" vertical-scroll-proportion="0.0" vertical-offset="900" max-vertical-offset="4425">
-          <folding />
-        </state>
+        <state line="60" column="33" selection-start="3079" selection-end="3083" vertical-scroll-proportion="0.0" vertical-offset="900" max-vertical-offset="4425" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
@@ -1172,23 +1182,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="35" selection-start="318" selection-end="331" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="300">
-          <folding />
-        </state>
+        <state line="5" column="35" selection-start="318" selection-end="331" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="300" />
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/web-app_2_5.xsd">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="19200">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="19200" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/kibana/webserver/StaticServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="25" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-          <folding />
-        </state>
+        <state line="0" column="25" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
@@ -1205,23 +1209,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="35" selection-start="318" selection-end="331" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="300">
-          <folding />
-        </state>
+        <state line="5" column="35" selection-start="318" selection-end="331" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="300" />
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/web-app_2_5.xsd">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="19200">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="19200" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/kibana/webserver/StaticServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="420">
-          <folding />
-        </state>
+        <state line="11" column="0" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="420" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
@@ -1233,23 +1231,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="1" selection-start="595" selection-end="595" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="285">
-          <folding />
-        </state>
+        <state line="12" column="1" selection-start="595" selection-end="595" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="285" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/kibana/webserver/StaticServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="547" selection-end="547" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="420">
-          <folding />
-        </state>
+        <state line="21" column="0" selection-start="547" selection-end="547" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="420" />
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/web-app_2_5.xsd">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="19200">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="19200" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
@@ -1259,9 +1251,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="35" selection-start="318" selection-end="331" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
-          <folding />
-        </state>
+        <state line="5" column="35" selection-start="318" selection-end="331" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300" />
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_40.jdk/Contents/Home/src.zip!/java/net/HttpURLConnection.java">
@@ -1271,9 +1261,7 @@
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_40.jdk/Contents/Home/src.zip!/java/net/URLStreamHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="37" selection-start="2086" selection-end="2086" vertical-scroll-proportion="0.0" vertical-offset="426" max-vertical-offset="8505">
-          <folding />
-        </state>
+        <state line="71" column="37" selection-start="2086" selection-end="2086" vertical-scroll-proportion="0.0" vertical-offset="426" max-vertical-offset="8505" />
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_40.jdk/Contents/Home/src.zip!/java/net/URL.java">
@@ -1283,9 +1271,7 @@
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_40.jdk/Contents/Home/src.zip!/java/util/Random.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="297" column="15" selection-start="11620" selection-end="11620" vertical-scroll-proportion="0.0" vertical-offset="3096" max-vertical-offset="8430">
-          <folding />
-        </state>
+        <state line="297" column="15" selection-start="11620" selection-end="11620" vertical-scroll-proportion="0.0" vertical-offset="3096" max-vertical-offset="8430" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
@@ -1302,64 +1288,42 @@
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_40.jdk/Contents/Home/jre/lib/rt.jar!/sun/net/www/protocol/http/HttpURLConnection.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="33" selection-start="3079" selection-end="3083" vertical-scroll-proportion="0.0" vertical-offset="900" max-vertical-offset="4425">
-          <folding />
-        </state>
+        <state line="60" column="33" selection-start="3079" selection-end="3083" vertical-scroll-proportion="0.0" vertical-offset="900" max-vertical-offset="4425" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/kibana/webserver/StaticJetty.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="678" selection-end="678" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
+        <state line="20" column="0" selection-start="678" selection-end="678" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/kibana/webserver/StaticServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="5" selection-start="543" selection-end="543" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-          <folding />
-        </state>
+        <state line="18" column="5" selection-start="543" selection-end="543" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/elasticsearch/indexing/domain/Topic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-          <folding />
-        </state>
+        <state line="8" column="0" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330" />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.elasticsearch/elasticsearch/1.0.1/f61550bfa747c6ddf60fef770288c5eea3a15db8/elasticsearch-1.0.1-sources.jar!/org/elasticsearch/client/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="178" column="24" selection-start="7525" selection-end="7525" vertical-scroll-proportion="0.33333334" vertical-offset="1731" max-vertical-offset="7740">
-          <folding />
-        </state>
+        <state line="178" column="24" selection-start="7525" selection-end="7525" vertical-scroll-proportion="0.33333334" vertical-offset="1731" max-vertical-offset="7740" />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.elasticsearch/elasticsearch/1.0.1/f61550bfa747c6ddf60fef770288c5eea3a15db8/elasticsearch-1.0.1-sources.jar!/org/elasticsearch/action/ActionFuture.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="6" selection-start="1188" selection-end="1813" vertical-scroll-proportion="0.49253732" vertical-offset="0" max-vertical-offset="1230">
-          <folding />
-        </state>
+        <state line="44" column="6" selection-start="1188" selection-end="1813" vertical-scroll-proportion="0.49253732" vertical-offset="0" max-vertical-offset="1230" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/elasticsearch/indexing/domain/Message.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="43" selection-start="1493" selection-end="1493" vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="960">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="51" column="43" selection-start="1493" selection-end="1493" vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="960" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/elasticsearch/indexing/BulkMessageIndexRequestBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="5" selection-start="506" selection-end="506" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="14" column="5" selection-start="506" selection-end="506" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/elasticsearch/indexing/ElasticSearchEnvironment.java">
@@ -1371,21 +1335,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Elecronic Messages Kibana Schema.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="406" column="1" selection-start="12576" selection-end="12576" vertical-scroll-proportion="0.9189189" vertical-offset="5750" max-vertical-offset="6180">
-          <folding />
-        </state>
+        <state line="406" column="1" selection-start="12576" selection-end="12576" vertical-scroll-proportion="0.9189189" vertical-offset="5750" max-vertical-offset="6180" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/elasticsearch/indexing/JsonMessageFormatter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="35" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0" vertical-offset="50" max-vertical-offset="720">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Notes.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="53" selection-end="53" vertical-scroll-proportion="0.06928407" vertical-offset="0" max-vertical-offset="570">
           <folding />
         </state>
       </provider>
@@ -1406,11 +1361,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/elasticsearch/indexing/MessageIndexer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="29" selection-start="326" selection-end="326" vertical-scroll-proportion="0.31177828" vertical-offset="0" max-vertical-offset="765">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="9" column="29" selection-start="326" selection-end="326" vertical-scroll-proportion="0.31177828" vertical-offset="0" max-vertical-offset="765" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -1437,25 +1388,42 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/elasticSearch/elasticsearch-1.0.1/config/elasticsearch.yml">
+    <entry file="file://$PROJECT_DIR$/elasticSearch/start_one_node_cluster.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="43" selection-start="4063" selection-end="4063" vertical-scroll-proportion="2.1153846" vertical-offset="1615" max-vertical-offset="5745">
+        <state line="3" column="0" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/elasticSearch/start_three_node_cluster.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="112" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+        <state line="4" column="112" selection-start="344" selection-end="344" vertical-scroll-proportion="-2.4" vertical-offset="0" max-vertical-offset="150">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/elasticSearch/start_one_node_cluster.sh">
+    <entry file="file://$PROJECT_DIR$/Notes.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="121" selection-end="121" vertical-scroll-proportion="0.100446425" vertical-offset="0" max-vertical-offset="448">
+        <state line="7" column="124" selection-start="410" selection-end="410" vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="585">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elasticSearch/elasticsearch-1.0.1/config/elasticsearch.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="162" column="32" selection-start="5921" selection-end="5921" vertical-scroll-proportion="0.0" vertical-offset="2055" max-vertical-offset="5745">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elasticSearch/elasticsearch-1.0.1/LICENSE.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="243" selection-end="243" vertical-scroll-proportion="0.31496063" vertical-offset="0" max-vertical-offset="3120">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
   </component>

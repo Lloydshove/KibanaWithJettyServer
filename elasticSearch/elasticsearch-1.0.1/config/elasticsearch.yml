@@ -108,7 +108,7 @@
 
 # Set the number of replicas (additional copies) of an index (1 by default):
 #
-index.number_of_replicas: 3
+index.number_of_replicas: 1
 
 # Note, that for development on a local machine, with small indices, it usually
 # makes sense to "disable" the distributed features:
@@ -160,7 +160,7 @@ path.data: ${path.home}/../data
 
 # Path to log files:
 #
-# path.logs: /path/to/logs
+path.logs:  ${path.home}/../logs
 
 # Path to where plugins are installed:
 #

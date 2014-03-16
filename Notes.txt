@@ -4,7 +4,8 @@ Getting started
 Links
 Local Kibana Server - http://localhost:8080/kibana
 LogStash JMS support :- https://logstash.jira.com/browse/LOGSTASH-1862
-
+Plugin to use Jetty with elastic search to add security - https://github.com/sonian/elasticsearch-jetty
+Project to add authentication to kibana->elasticsearch but in nodeJs - https://github.com/fangli/kibana-authentication-proxy
 
 REST Queries
 POST /messages/_search
