@@ -5,7 +5,7 @@
             "list": {
                 "0": {
                     "query": "message_type=Email AND read:true",
-                    "alias": "Read Email",
+                    "alias": "Read Emails",
                     "color": "#7EB26D",
                     "id": 0,
                     "pin": true,
@@ -24,7 +24,7 @@
                 "2": {
                     "id": 2,
                     "color": "#6ED0E0",
-                    "alias": "Read Whatsapp",
+                    "alias": "Read Whatsapps",
                     "pin": true,
                     "type": "lucene",
                     "enable": true,
@@ -33,7 +33,7 @@
                 "3": {
                     "id": 3,
                     "color": "#BF1B00",
-                    "alias": "Unread",
+                    "alias": "All Unread",
                     "pin": true,
                     "type": "lucene",
                     "enable": true,
@@ -148,7 +148,7 @@
             "panels": [
                 {
                     "error": false,
-                    "span": 3,
+                    "span": 4,
                     "editable": true,
                     "group": [
                         "default"
@@ -216,7 +216,7 @@
                     "arrangement": "horizontal",
                     "chart": "pie",
                     "counter_pos": "none",
-                    "title": "Document types",
+                    "title": "Types",
                     "spyable": true,
                     "tmode": "terms",
                     "tstat": "total",
@@ -302,7 +302,7 @@
                             3
                         ]
                     },
-                    "field_list": true,
+                    "field_list": false,
                     "status": "Stable",
                     "trimFactor": 100,
                     "normTimes": true,
@@ -342,7 +342,7 @@
     "pulldowns": [
         {
             "type": "query",
-            "collapse": false,
+            "collapse": true,
             "notice": false,
             "query": "*",
             "pinned": true,
