@@ -10,7 +10,7 @@ import static java.lang.System.out;
 public class MessageIndexer {
 
     private static final int REQUESTS_PER_BULK_INSERT = 100000;
-    private static final int NUMBER_OF_BULK_INSERTS = 29;
+    private static final int NUMBER_OF_BULK_INSERTS = 30;
 
     private final Client client;
     private ElasticSearchEnvironment env;
