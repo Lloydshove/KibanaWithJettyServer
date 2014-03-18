@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7869bbdb-262d-407c-8ad2-278b0d06b581" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticSearch/elasticsearch-1.0.1/logs/elasticsearch.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticSearch/elasticsearch-1.0.1/logs/elasticsearch.log.2014-03-11" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticSearch/elasticsearch-1.0.1/logs/elasticsearch.log.2014-03-14" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticSearch/elasticsearch-1.0.1/logs/elasticsearch_index_search_slowlog.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticSearch/start_two_nodes.sh" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Notes.txt" afterPath="$PROJECT_DIR$/Notes.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elasticSearch/elasticsearch-1.0.1/config/elasticsearch.yml" afterPath="$PROJECT_DIR$/elasticSearch/elasticsearch-1.0.1/config/elasticsearch.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+    </list>
+    <list id="a0b8896e-47fd-4e86-9f67-c9d3aff3682b" name="do not commit" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/elasticSearch/elasticsearch-1.0.1/logs/elasticsearch_index_indexing_slowlog.log" afterPath="" />
     </list>
     <ignored path="kibanawebserver.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -75,58 +71,59 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="ElasticSearchEnvironment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/elasticsearch/indexing/ElasticSearchEnvironment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="0" selection-start="633" selection-end="633" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="615">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="JsonMessageFormatter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/elasticsearch/indexing/JsonMessageFormatter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="35" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="720">
+            <state line="26" column="0" selection-start="1065" selection-end="1065" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="705">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="elasticsearch" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/elasticSearch/elasticsearch-1.0.1/bin/elasticsearch">
+      <file leaf-file-name="MessageIndexer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/elasticsearch/indexing/MessageIndexer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="9" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3285">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="elasticsearch.in.sh" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/elasticSearch/elasticsearch-1.0.1/bin/elasticsearch.in.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1035">
-              <folding />
+            <state line="26" column="75" selection-start="922" selection-end="922" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="start_three_node_cluster.sh" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/elasticSearch/start_three_node_cluster.sh">
+      <file leaf-file-name="BulkMessageIndexRequestBuilder.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/elasticsearch/indexing/BulkMessageIndexRequestBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="112" selection-start="344" selection-end="344" vertical-scroll-proportion="-2.4" vertical-offset="0" max-vertical-offset="150">
-              <folding />
+            <state line="11" column="11" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0" vertical-offset="112" max-vertical-offset="540">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="start_one_node_cluster.sh" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/elasticSearch/start_one_node_cluster.sh">
+      <file leaf-file-name="uiDesigner.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="135">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1965">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="workspace copy.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace copy.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="6" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="330">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="23880">
               <folding />
             </state>
           </provider>
@@ -135,16 +132,16 @@
       <file leaf-file-name="elasticsearch.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/elasticSearch/elasticsearch-1.0.1/config/elasticsearch.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="162" column="32" selection-start="5921" selection-end="5921" vertical-scroll-proportion="0.0" vertical-offset="2055" max-vertical-offset="5745">
+            <state line="162" column="32" selection-start="5921" selection-end="5921" vertical-scroll-proportion="0.0" vertical-offset="3237" max-vertical-offset="5745">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LICENSE.txt" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/elasticSearch/elasticsearch-1.0.1/LICENSE.txt">
+      <file leaf-file-name="elasticsearch.log" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/elasticSearch/logs/elasticsearch.log">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="243" selection-end="243" vertical-scroll-proportion="0.31496063" vertical-offset="0" max-vertical-offset="3120">
+            <state line="306" column="81" selection-start="27740" selection-end="27740" vertical-scroll-proportion="-3.6296296" vertical-offset="4492" max-vertical-offset="6045">
               <folding />
             </state>
           </provider>
@@ -153,21 +150,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/kibana/config.js">
+      <file leaf-file-name="elasticsearch.log.2014-03-16" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/elasticSearch/logs/elasticsearch.log.2014-03-16">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1125">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="5220">
               <folding />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MessageType.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/elasticsearch/indexing/domain/MessageType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="602" selection-end="602" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="480">
-              <folding />
-            </state>
+          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+            <state />
           </provider>
         </entry>
       </file>
@@ -470,14 +461,16 @@
         <option value="$PROJECT_DIR$/src/main/java/elasticsearch/indexing/domain/Message.java" />
         <option value="$PROJECT_DIR$/src/main/java/elasticsearch/indexing/ElasticSearchEnvironment.java" />
         <option value="$PROJECT_DIR$/src/main/java/elasticsearch/indexing/JsonMessageFormatter.java" />
-        <option value="$PROJECT_DIR$/Elecronic Messages Kibana Schema.json" />
         <option value="$PROJECT_DIR$/src/main/java/elasticsearch/indexing/MessageIndexer.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/elasticSearch/start_two_nodes.sh" />
         <option value="$PROJECT_DIR$/elasticSearch/start_three_node_cluster.sh" />
         <option value="$PROJECT_DIR$/elasticSearch/start_one_node_cluster.sh" />
-        <option value="$PROJECT_DIR$/Notes.txt" />
         <option value="$PROJECT_DIR$/elasticSearch/elasticsearch-1.0.1/config/elasticsearch.yml" />
+        <option value="$PROJECT_DIR$/Notes.txt" />
+        <option value="$PROJECT_DIR$/Elecronic Messages Kibana Schema.json" />
+        <option value="$PROJECT_DIR$/elasticSearch/logs/elasticsearch.log" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
       </list>
     </option>
   </component>
@@ -546,6 +539,102 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kibanawebserver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kibanawebserver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kibanawebserver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kibanawebserver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="indexing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kibanawebserver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kibanawebserver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="indexing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kibanawebserver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kibanawebserver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="gradle" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -596,33 +685,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="elasticSearch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="elasticsearch-1.0.1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kibanawebserver" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kibanawebserver" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="elasticSearch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="elasticsearch-1.0.1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value=".idea" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -673,51 +736,7 @@
       <recent name="elasticsearch.indexing" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="false" name="StaticJetty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="kibana.webserver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="kibana.webserver.StaticJetty" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="kibanawebserver" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="MessageIndexer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="kibana.webserver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="elasticsearch.indexing.MessageIndexer" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="kibanawebserver" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.StaticJetty">
     <configuration default="false" name="kibanawebserver [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -958,17 +977,15 @@
       </method>
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Gradle.Start Jetty" />
-      <item index="1" class="java.lang.String" itemvalue="Groovy.build" />
-      <item index="2" class="java.lang.String" itemvalue="Application.StaticJetty" />
-      <item index="3" class="java.lang.String" itemvalue="Application.MessageIndexer" />
-      <item index="4" class="java.lang.String" itemvalue="Gradle.kibanawebserver [build]" />
+      <item index="0" class="java.lang.String" itemvalue="Application.StaticJetty" />
+      <item index="1" class="java.lang.String" itemvalue="Application.MessageIndexer" />
+      <item index="2" class="java.lang.String" itemvalue="Gradle.Start Jetty" />
+      <item index="3" class="java.lang.String" itemvalue="Gradle.kibanawebserver [build]" />
+      <item index="4" class="java.lang.String" itemvalue="Groovy.build" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.MessageIndexer" />
-        <item index="1" class="java.lang.String" itemvalue="Application.StaticJetty" />
-        <item index="2" class="java.lang.String" itemvalue="Gradle.kibanawebserver [build]" />
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Gradle.kibanawebserver [build]" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -997,6 +1014,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="7869bbdb-262d-407c-8ad2-278b0d06b581" name="Default" comment="" />
+      <changelist id="a0b8896e-47fd-4e86-9f67-c9d3aff3682b" name="do not commit" comment="" />
       <created>1394572610496</created>
       <updated>1394572610496</updated>
       <workItem from="1394572611801" duration="532000" />
@@ -1004,7 +1022,7 @@
       <workItem from="1394575076973" duration="60000" />
       <workItem from="1394575152793" duration="9974000" />
       <workItem from="1394831948524" duration="11463000" />
-      <workItem from="1394958714924" duration="1195000" />
+      <workItem from="1394958714924" duration="5420000" />
     </task>
     <task id="LOCAL-00001" summary="idea">
       <created>1394660553285</created>
@@ -1030,18 +1048,34 @@
       <created>1394926153063</created>
       <updated>1394926153063</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="moving logs outside of the elastic search installation directory.">
+      <created>1394961884219</created>
+      <updated>1394961884219</updated>
+    </task>
+    <task id="LOCAL-00008" summary="notes on elastic search plugins">
+      <created>1394968652614</created>
+      <updated>1394968652614</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added IntelliJ Run Targets for indexing test data and starting kibana">
+      <created>1394968887016</created>
+      <updated>1394968887016</updated>
+    </task>
+    <task id="LOCAL-00010" summary="updated kibana config.">
+      <created>1394971057180</created>
+      <updated>1394971057180</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25023000" />
+    <option name="totallyTimeSpent" value="29248000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1366" height="742" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3179792" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3179792" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1051,7 +1085,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25622255" sideWeight="0.50108933" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986626" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1062,7 +1096,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25622255" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3374817" sideWeight="0.49891067" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871014" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1121,7 +1155,11 @@
     <MESSAGE value="checking in elastic search&#10;" />
     <MESSAGE value="playing with config to replicate data across nodes.  added some scripts to start different numbers of nodes." />
     <MESSAGE value="moving logs to the upper level" />
-    <option name="LAST_COMMIT_MESSAGE" value="moving logs to the upper level" />
+    <MESSAGE value="moving logs outside of the elastic search installation directory." />
+    <MESSAGE value="notes on elastic search plugins" />
+    <MESSAGE value="Added IntelliJ Run Targets for indexing test data and starting kibana" />
+    <MESSAGE value="updated kibana config." />
+    <option name="LAST_COMMIT_MESSAGE" value="updated kibana config." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1131,43 +1169,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/kibana/webserver/StaticServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="5" selection-start="543" selection-end="543" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="420" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kibana/webserver/StaticJetty.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="680" selection-end="680" vertical-scroll-proportion="0.0" vertical-offset="96" max-vertical-offset="705" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Notes.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="240">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/elasticsearch/indexing/MessageIndexer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="100" selection-start="2236" selection-end="2236" vertical-scroll-proportion="0.0" vertical-offset="497" max-vertical-offset="1890" />
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_40.jdk/Contents/Home/src.zip!/java/util/Random.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="297" column="15" selection-start="11620" selection-end="11620" vertical-scroll-proportion="0.0" vertical-offset="4455" max-vertical-offset="8805" />
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_40.jdk/Contents/Home/src.zip!/java/net/URLStreamHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="37" selection-start="2086" selection-end="2086" vertical-scroll-proportion="0.0" vertical-offset="1065" max-vertical-offset="8940" />
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_40.jdk/Contents/Home/jre/lib/rt.jar!/sun/net/www/protocol/http/HttpURLConnection.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="33" selection-start="3079" selection-end="3083" vertical-scroll-proportion="0.0" vertical-offset="900" max-vertical-offset="4425" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="1" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
@@ -1303,12 +1304,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/elasticsearch/indexing/domain/Topic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330" />
+        <state line="8" column="0" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.elasticsearch/elasticsearch/1.0.1/f61550bfa747c6ddf60fef770288c5eea3a15db8/elasticsearch-1.0.1-sources.jar!/org/elasticsearch/client/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="178" column="24" selection-start="7525" selection-end="7525" vertical-scroll-proportion="0.33333334" vertical-offset="1731" max-vertical-offset="7740" />
+        <state line="178" column="24" selection-start="7525" selection-end="7525" vertical-scroll-proportion="0.33333334" vertical-offset="1731" max-vertical-offset="7740">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.elasticsearch/elasticsearch/1.0.1/f61550bfa747c6ddf60fef770288c5eea3a15db8/elasticsearch-1.0.1-sources.jar!/org/elasticsearch/action/ActionFuture.java">
@@ -1318,30 +1323,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/elasticsearch/indexing/domain/Message.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="43" selection-start="1493" selection-end="1493" vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="960" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/elasticsearch/indexing/BulkMessageIndexRequestBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="5" selection-start="506" selection-end="506" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/elasticsearch/indexing/ElasticSearchEnvironment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="48" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Elecronic Messages Kibana Schema.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="406" column="1" selection-start="12576" selection-end="12576" vertical-scroll-proportion="0.9189189" vertical-offset="5750" max-vertical-offset="6180" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/elasticsearch/indexing/JsonMessageFormatter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="35" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0" vertical-offset="50" max-vertical-offset="720">
-          <folding />
+        <state line="51" column="43" selection-start="1493" selection-end="1493" vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="960">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1357,11 +1342,6 @@
         <state line="24" column="0" selection-start="602" selection-end="602" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/elasticsearch/indexing/MessageIndexer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="29" selection-start="326" selection-end="326" vertical-scroll-proportion="0.31177828" vertical-offset="0" max-vertical-offset="765" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -1388,13 +1368,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/elasticSearch/start_one_node_cluster.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/elasticSearch/start_three_node_cluster.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="112" selection-start="344" selection-end="344" vertical-scroll-proportion="-2.4" vertical-offset="0" max-vertical-offset="150">
@@ -1402,28 +1375,122 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/elasticSearch/elasticsearch-1.0.1/LICENSE.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="243" selection-end="243" vertical-scroll-proportion="-4.4444447" vertical-offset="0" max-vertical-offset="3120">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elasticSearch/elasticsearch-1.0.1/README.textile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3495">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elasticSearch/logs/elasticsearch_index_indexing_slowlog.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Notes.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="124" selection-start="410" selection-end="410" vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="585">
+        <state line="2" column="0" selection-start="53" selection-end="53" vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elasticSearch/start_one_node_cluster.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="121" selection-end="121" vertical-scroll-proportion="-1.8" vertical-offset="0" max-vertical-offset="135">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Elecronic Messages Kibana Schema.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="406" column="1" selection-start="12573" selection-end="12573" vertical-scroll-proportion="-239.375" vertical-offset="345" max-vertical-offset="6180">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/elasticSearch/elasticsearch-1.0.1/config/elasticsearch.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="162" column="32" selection-start="5921" selection-end="5921" vertical-scroll-proportion="0.0" vertical-offset="2055" max-vertical-offset="5745">
+        <state line="162" column="32" selection-start="5921" selection-end="5921" vertical-scroll-proportion="0.0" vertical-offset="3237" max-vertical-offset="5745">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/elasticSearch/elasticsearch-1.0.1/LICENSE.txt">
+    <entry file="file://$PROJECT_DIR$/elasticSearch/logs/elasticsearch.log.2014-03-16">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="243" selection-end="243" vertical-scroll-proportion="0.31496063" vertical-offset="0" max-vertical-offset="3120">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5220">
           <folding />
         </state>
       </provider>
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elasticSearch/logs/elasticsearch.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="306" column="81" selection-start="27740" selection-end="27740" vertical-scroll-proportion="-3.6296296" vertical-offset="4492" max-vertical-offset="6045">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/elasticsearch/indexing/JsonMessageFormatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="1065" selection-end="1065" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="705">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/elasticsearch/indexing/MessageIndexer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="75" selection-start="922" selection-end="922" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="765">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/elasticsearch/indexing/ElasticSearchEnvironment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="633" selection-end="633" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/elasticsearch/indexing/BulkMessageIndexRequestBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="11" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0" vertical-offset="112" max-vertical-offset="540">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1965">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace copy.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="23880">
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
