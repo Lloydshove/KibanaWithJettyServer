@@ -947,7 +947,7 @@
       <created>1395056391174</created>
       <updated>1395056391174</updated>
       <workItem from="1395056390380" duration="1355000" />
-      <workItem from="1395455174746" duration="1682000" />
+      <workItem from="1395455174746" duration="1986000" />
     </task>
     <task id="LOCAL-00001" summary="added head to make monitoring the cluster easier">
       <created>1395058080792</created>
@@ -961,7 +961,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3037000" />
+    <option name="totallyTimeSpent" value="3341000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="29" width="1260" height="760" extended-state="0" />
