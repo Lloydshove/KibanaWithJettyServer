@@ -15,3 +15,11 @@ out/**\
 *.jar\
 *.war\
 *.ear}
+*.bin
+build/**
+out/**
+.gradle/**
+elasticsearch/data/**
+elasticsearch/logs/**
+out/**
+*.bin
