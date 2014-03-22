@@ -221,7 +221,7 @@ bootstrap.mlockall: true
 
 # Set a custom port to listen for HTTP traffic:
 #
-# http.port: 9200
+http.port: 0
 
 # Set a custom allowed content length:
 #
@@ -375,3 +375,11 @@ bootstrap.mlockall: true
 #monitor.jvm.gc.old.warn: 10s
 #monitor.jvm.gc.old.info: 5s
 #monitor.jvm.gc.old.debug: 2s
+
+
+http.type: com.sonian.elasticsearch.http.jetty.JettyHttpServerTransportModule
+sonian.elasticsearch.http.jetty:
+    config: jetty.xml,jetty-ssl.xml
+    ssl_port: 9443
+    keystore_password: "OBF:1nc01vuz1w8f1w1c1rbu1rac1w261w9b1vub1ndq"
+#only use the default keystore and password for TEST puposes!!!
